@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: #EDE5A6;
+    font-family: sans-serif;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+h1 {
+    color: #b19727;
+    text-align: center;
+    width: 100%;
+    background-color: #DCD15F;
+    font-size: 3rem;
+}
+
+h2 {
+    color: #B7990D;
+    font-size: 2rem;
+}
+
+
+li {
+    list-style: none;
+}
+
+.menu {
+    display: inline-block;
+    padding: 1%;
+}
+
+p {
+    text-align: justify;
+}
+
+.sectionImagen {
+    background-image: url(../multimedia/icono.jpg);
+    background-repeat: repeat;
+    height: 200px;
+    background-position: left;
+    background-size: contain;
+}
+
+.imagenGaleria {
+    width: 89%;
+}
+
+.imagenProyectos {
+    width: 70%;
+}
+
+.overflow {
+    width: 100%;
+}
+
+main {
+    margin-top: 3rem;
+}
+
+footer {
+    margin-top: 15rem;
+}
+
+.anchorContactate {
+    margin-top: 3rem;
+}
+
+.anchorParticipar {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.contactarnos {
+    margin-bottom: 2rem;
+}
+
+.contacto {
+    margin-top: 1rem;
+}
