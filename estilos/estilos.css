@@ -34,9 +34,9 @@ li {
     list-style: none;
 }
 
-.menu {
-    display: inline-block;
-    padding: 1%;
+
+.listaMenu {
+    display: flex;
 }
 
 p {
@@ -86,4 +86,10 @@ footer {
 
 .contacto {
     margin-top: 1rem;
+}
+
+.cajaContenedora {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
