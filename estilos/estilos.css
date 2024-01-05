@@ -93,3 +93,7 @@ footer {
     flex-direction: column;
     justify-content: center;
 }
+
+.redes {
+    font-size: 40px;
+}
