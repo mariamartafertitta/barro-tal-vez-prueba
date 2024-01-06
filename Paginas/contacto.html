@@ -10,137 +10,122 @@
 </head>
 
 <body>
-    <header>
-        <nav>
+    <div class="grillaContacto">
+        <header class="headerGrilla">
+            <nav>
+                <ul class="listaMenu">
+                    <li>
+                        <a href="../index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="./Sobre-nosotros.html">Sobre nosotros</a>
+                    </li>
+                    <li>
+                        <a href="./galeria.html">Galeria</a>
+                    </li>
+                    <li>
+                        <a href="#">Contacto</a>
+                    </li>
+                    <li>
+                        <a href="./nuestros-proyectos.html">Nuestros proyectos</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main class="mainGrilla">
+            <section>
+                <h1>Contacto</h1>
+                <h2>Donde encontrarnos</h2>
+                <div class="contactarnos">
+                    <p>Nos econtramos en la localidad de Mar del plata playa Chapadmalal, rodeados de naturaleza y mar.
+                    </p>
+                </div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8871.939157826837!2d-57.64986777602134!3d-38.170314258966826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584e1f905ae48d9%3A0x49d8faae01659b70!2sLas%20Cuevas%20Cerveza%20Artesanal!5e0!3m2!1ses-419!2sar!4v1702078419650!5m2!1ses-419!2sar"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+            <section>
+                <h2 class="anchorContactate">Contactate con nostros</h2>
+                <form action="">
+                    <div class="contacto">
+                        <label for="nombreUsuario">Ingresa tu nombre</label>
+                        <input type="text" name="nombreUsuario" id="nombreUsuario">
+                    </div>
+                    <div>
+                        <label for="nombre">Nombre y apellido</label>
+                        <input type="text" name="nombre" id="nombre">
+                    </div>
+                    <div>
+                        <label for="edad">Edad</label>
+                        <input type="number" name="edad" id="edad">
+                    </div>
+                    <div>
+                        <label for="correo">Email</label>
+                        <input type="email" name="correo" id="correo">
+                    </div>
+                    <div class="contacto">
+                        <p>Ingresa tu genero</p>
+                        <div>
+                            <label for="genero">Femenino</label>
+                            <input type="radio" name="genero">
+                        </div>
+                        <div>
+                            <label for="genero">Masculino</label>
+                            <input type="radio" name="genero">
+                        </div>
+                    </div>
+                    <div class="contacto">
+                        <p>Que tecnica te gustaria aprender? (Seleccionar todas las que correspondan)</p>
+                        <div>
+                            <label for="techoVivo">Techo vivo</label>
+                            <input type="checkbox" name="techoVivo">
+                        </div>
+                        <div>
+                            <label for="estanques">Estanques</label>
+                            <input type="checkbox" name="estanque">
+                        </div>
+                        <div>
+                            <label for="casasAdobe">Casas de adobe</label>
+                            <input type="checkbox" name="casasAdobe">
+                        </div>
+                    </div>
+                    <div class="contacto">
+                        <p>Metodo de pago</p>
+                        <div>
+                            <label for="pago">Selecciona tu medio de pago</label>
+                            <select name="pago" id="">
+                                <option value="efectivo">Efectivo</option>
+                                <option value="credito">Tarjeta de credito</option>
+                                <option value="debito">Tarjeta de debito</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="contacto">
+                        <input type="reset" value="Borrar formulario">
+                        <input type="submit" value="Enviar">
+                    </div>
+                </form>
+            </section>
+
+            </section>
+        </main>
+        <footer class="footerGrilla">
             <ul class="listaMenu">
                 <li>
-                    <a href="../index.html">Inicio</a>
+                    <a target="_blank" href="https://www.instagram.com/">
+                        <iconify-icon class="redes" icon="skill-icons:instagram"></iconify-icon>
+                    </a>
                 </li>
                 <li>
-                    <a href="./Sobre-nosotros.html">Sobre nosotros</a>
-                </li>
-                <li>
-                    <a href="./galeria.html">Galeria</a>
-                </li>
-                <li>
-                    <a href="#">Contacto</a>
-                </li>
-                <li>
-                    <a href="./nuestros-proyectos.html">Nuestros proyectos</a>
+                    <a target="_blank" href="https://www.facebook.com/?locale=es_LA">
+                        <iconify-icon class="redes" icon="logos:facebook"></iconify-icon></a>
                 </li>
             </ul>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <h1>Contacto</h1>
-            <h2>Donde encontrarnos</h2>
-            <div class="contactarnos">
-                <p>Nos econtramos en la localidad de Mar del plata playa Chapadmalal, rodeados de naturaleza y mar. </p>
-            </div>
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8871.939157826837!2d-57.64986777602134!3d-38.170314258966826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584e1f905ae48d9%3A0x49d8faae01659b70!2sLas%20Cuevas%20Cerveza%20Artesanal!5e0!3m2!1ses-419!2sar!4v1702078419650!5m2!1ses-419!2sar"
-                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </section>
-        <section>
-            <h2 class="anchorContactate">Contactate con nostros</h2>
-            <form action="">
-                <div class="contacto">
-                    <label for="nombreUsuario">Ingresa tu nombre</label>
-                    <input type="text" name="nombreUsuario" id="nombreUsuario">
-                </div>
-                <div>
-                    <label for="nombre">Nombre y apellido</label>
-                    <input type="text" name="nombre" id="nombre">
-                </div>
-                <div>
-                    <label for="edad">Edad</label>
-                    <input type="number" name="edad" id="edad">
-                </div>
-                <div>
-                    <label for="correo">Email</label>
-                    <input type="email" name="correo" id="correo">
-                </div>
-                <div class="contacto">
-                    <p>Ingresa tu genero</p>
-                    <div>
-                        <label for="genero">Femenino</label>
-                        <input type="radio" name="genero">
-                    </div>
-                    <div>
-                        <label for="genero">Masculino</label>
-                        <input type="radio" name="genero">
-                    </div>
-                </div>
-                <div class="contacto">
-                    <p>Que tecnica te gustaria aprender? (Seleccionar todas las que correspondan)</p>
-                    <div>
-                        <label for="techoVivo">Techo vivo</label>
-                        <input type="checkbox" name="techoVivo">
-                    </div>
-                    <div>
-                        <label for="estanques">Estanques</label>
-                        <input type="checkbox" name="estanque">
-                    </div>
-                    <div>
-                        <label for="casasAdobe">Casas de adobe</label>
-                        <input type="checkbox" name="casasAdobe">
-                    </div>
-                </div>
-                <div class="contacto">
-                    <p>Metodo de pago</p>
-                    <div>
-                        <label for="pago">Selecciona tu medio de pago</label>
-                        <select name="pago" id="">
-                            <option value="efectivo">Efectivo</option>
-                            <option value="credito">Tarjeta de credito</option>
-                            <option value="debito">Tarjeta de debito</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="contacto">
-                    <input type="reset" value="Borrar formulario">
-                    <input type="submit" value="Enviar">
-                </div>
-            </form>
-        </section>
-        <section>
-            <table class="contacto">
-                <tr>
-                    <th>VALOR</th>
-                    <th>CURSOS</th>
-                </tr>
-                <tr>
-                    <td>Techo vivo</td>
-                    <td>$1.000 usd</td>
-                </tr>
-                <tr>
-                    <td>Estanques</td>
-                    <td>$1.500 usd</td>
-                </tr>
-                <tr>
-                    <td>Casas de adobe</td>
-                    <td>$3.000 usd</td>
-                </tr>
-            </table>
-        </section>
-    </main>
-    <footer>
-        <ul class="listaMenu">
-            <li>
-                <a target="_blank" href="https://www.instagram.com/">
-                    <iconify-icon class="redes" icon="skill-icons:instagram"></iconify-icon>
-                </a>
-            </li>
-            <li>
-                <a target="_blank" href="https://www.facebook.com/?locale=es_LA">
-                    <iconify-icon class="redes" icon="logos:facebook"></iconify-icon></a>
-            </li>
-        </ul>
-    </footer>
-    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
-    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+        </footer>
+        <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+        <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    </div>
 </body>
 
 </html>

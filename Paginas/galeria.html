@@ -7,64 +7,68 @@
     <title>Barro tal vez | Galeria </title>
     <link rel="shortcut icon" href="../multimedia/favi2.jpg" type="image/x-icon">
     <link rel="stylesheet" href="../estilos/estilos.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
-    <header>
-        <nav>
+    <div class="grillaGaleria">
+        <header class="headerGrilla">
+            <nav>
+                <ul class="listaMenu">
+                    <li>
+                        <a href="../index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="./Sobre-nosotros.html">Sobre nosotros</a>
+                    </li>
+                    <li>
+                        <a href="#">Galeria</a>
+                    </li>
+                    <li>
+                        <a href="./contacto.html">Contacto</a>
+                    </li>
+                    <li>
+                        <a href="./nuestros-proyectos.html">Nuestros proyectos</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <!--Ver si lo hago con grid, ojo q puse caja contenedora ver si lo saco porque en csss no puse nada, lo hice con galeria falta resto-->
+
+        <main class="mainGrilla">
+            <section>
+                <h1>Galeria</h1>
+                <div class="cajaContenedoraGaleria">
+                    <div><img class="imagengaleria" src="../multimedia/lg.jpg"
+                            alt="imagen escuela sustentable exterior">
+                    </div>
+                    <div><img class="imagenGaleria" src="../multimedia/307491_212299162156489_943016_n.jpg"
+                            alt="imagen living"></div>
+                    <div><img class="imagenGaleria" src="../multimedia/CASA-DE-BAROO.jpg"
+                            alt="imagen externa casa barro blanca"></div>
+                    <div><img class="imagenGaleria" src="../multimedia/escuela-sustentable07-1024x768.webp"
+                            alt="imagen pasillo escuela mar chiquita"></div>
+                </div>
+            </section>
+        </main>
+        <footer class="footerGrilla">
             <ul class="listaMenu">
                 <li>
-                    <a href="../index.html">Inicio</a>
+                    <a target="_blank" href="https://www.instagram.com/">
+                        <iconify-icon class="redes" icon="skill-icons:instagram"></iconify-icon>
+                    </a>
                 </li>
                 <li>
-                    <a href="./Sobre-nosotros.html">Sobre nosotros</a>
-                </li>
-                <li>
-                    <a href="#">Galeria</a>
-                </li>
-                <li>
-                    <a href="./contacto.html">Contacto</a>
-                </li>
-                <li>
-                    <a href="./nuestros-proyectos.html">Nuestros proyectos</a>
+                    <a target="_blank" href="https://www.facebook.com/?locale=es_LA">
+                        <iconify-icon class="redes" icon="logos:facebook"></iconify-icon>
+                    </a>
                 </li>
             </ul>
-        </nav>
-    </header>
-
-    <!--Ver si lo hago con grid, ojo q puse caja contenedora ver si lo saco porque en csss no puse nada, lo hice con galeria falta resto-->
-
-    <main>
-        <section>
-            <h1>Galeria</h1>
-            <div class="cajaContenedora">
-                <div><img class="imagengaleria" src="../multimedia/lg.jpg" alt="imagen escuela sustentable exterior">
-                </div>
-                <div><img class="imagenGaleria" src="../multimedia/307491_212299162156489_943016_n.jpg"
-                        alt="imagen living"></div>
-                <div><img class="imagenGaleria" src="../multimedia/CASA-DE-BAROO.jpg"
-                        alt="imagen externa casa barro blanca"></div>
-                <div><img class="imagenGaleria" src="../multimedia/escuela-sustentable07-1024x768.webp"
-                        alt="imagen pasillo escuela mar chiquita"></div>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <ul class="listaMenu">
-            <li>
-                <a target="_blank" href="https://www.instagram.com/">
-                    <iconify-icon class="redes" icon="skill-icons:instagram"></iconify-icon>
-                </a>
-            </li>
-            <li>
-                <a target="_blank" href="https://www.facebook.com/?locale=es_LA">
-                    <iconify-icon class="redes" icon="logos:facebook"></iconify-icon>
-                </a>
-            </li>
-        </ul>
-    </footer>
-    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
-    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+        </footer>
+        <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+        <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    </div>
 </body>
 
 </html>
