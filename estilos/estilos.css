@@ -41,8 +41,14 @@ li {
     flex-wrap: wrap;
     gap: 20px;
 
-
 }
+
+.listaMenuFooter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
 
 p {
     text-align: justify;
@@ -154,6 +160,15 @@ footer {
 }
 
 
-@media (max-width: 500px){
-    
-}
+@media screen and (min-width: 320px) and (max-width: 700px) {
+    .listaMenu {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .h1Mobil{
+        font-size: 2rem;
+    }
+    .h2Mobil{
+        font-size: 1.5rem;
+    }
+    }
