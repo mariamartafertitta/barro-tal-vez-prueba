@@ -1,3 +1,4 @@
+/* generales */
 * {
     margin: 0;
     padding: 0;
@@ -17,6 +18,13 @@ a {
     font-weight: 600;
 }
 
+li {
+    list-style: none;
+}
+
+/* fin generales */
+
+/* fuentes */
 h1 {
     color: #b19727;
     text-align: center;
@@ -31,11 +39,18 @@ h2 {
 }
 
 
-li {
-    list-style: none;
+.subtitulo {
+    color: #B7990D;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%;
+    background-color: #17171741;
+    font-size: 3rem;
 }
 
+/* fin fuentes */
 
+/* header */
 .listaMenu {
     display: flex;
     flex-wrap: wrap;
@@ -49,19 +64,17 @@ li {
     gap: 20px;
 }
 
-
-p {
-    text-align: justify;
-    margin-top: 5%;
-    padding: 3%;
-}
-
 .sectionImagen {
     background-image: url(../multimedia/icono.jpg);
-    background-repeat: repeat;
-    height: 200px;
+    background-repeat: no-repeat;
     background-position: left;
-    background-size: contain;
+    background-size: cover;
+}
+
+.sombra-parrafo {
+    background-color: rgba(0, 0, 0, 0.323);
+    color: whitesmoke;
+    font-size: 20px;
 }
 
 .imagenGaleria {
@@ -71,37 +84,6 @@ p {
 .imagenProyectos {
     width: 100%;
 }
-
-.overflow {
-    width: 100%;
-}
-
-main {
-    margin-top: 3rem;
-}
-
-footer {
-    margin-top: 3rem;
-    height: 100%;
-}
-
-.anchorContactate {
-    margin-top: 3rem;
-}
-
-.anchorParticipar {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-}
-
-.contactarnos {
-    margin-bottom: 2rem;
-}
-
-.contacto {
-    margin-top: 1rem;
-}
-
 
 
 .cajaContenedora {
@@ -121,75 +103,24 @@ footer {
     grid-template-rows: 100px auto;
 }
 
-.nav{
-    display: flex;
-
-    text-align: center;
+.header {
     font-weight: 600;
     padding: 3%;
-
 }
 
-.grillaIndex {
+.grilla {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     row-gap: 3px;
     grid-template-rows: 100px auto;
-}
-
-.grillaSobreNosotros {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    row-gap: 3px;
-    grid-template-rows: 100px auto;
-}
-
-.grillaGaleria {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    row-gap: 3px;
-    grid-template-rows: 100px auto;
-}
-
-.grillaContacto {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    row-gap: 3px;
-    grid-template-rows: 100px auto;
-}
-
-
-.headerGrilla {
-    grid-column: 1/4;
-}
-
-.mainGrilla {
-    grid-column: 1/4;
 }
 
 .footerGrilla {
     grid-column: 1/4;
 }
 
-.menuNav{
-    display: flex;
-    
+.video-youtube {
+    width: 75%;
+    height: 45vh;
+
 }
-
-
-@media screen and (min-width: 320px) and (max-width: 700px) {
-    .listaMenu {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .h1Mobil {
-        font-size: 2rem;
-    }
-
-    .h2Mobil {
-        font-size: 1.5rem;
-    }
-    
-    
-    }
