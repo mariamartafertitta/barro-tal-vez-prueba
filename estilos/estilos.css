@@ -1,4 +1,4 @@
-/* generales */
+
 * {
     margin: 0;
     padding: 0;
@@ -22,9 +22,6 @@ li {
     list-style: none;
 }
 
-/* fin generales */
-
-/* fuentes */
 h1 {
     color: #b19727;
     text-align: center;
@@ -48,9 +45,6 @@ h2 {
     font-size: 3rem;
 }
 
-/* fin fuentes */
-
-/* header */
 .listaMenu {
     display: flex;
     flex-wrap: wrap;
@@ -117,6 +111,7 @@ h2 {
 
 .footerGrilla {
     grid-column: 1/4;
+    margin-top: 20%;
 }
 
 .video-youtube {
@@ -124,3 +119,4 @@ h2 {
     height: 45vh;
 
 }
+
