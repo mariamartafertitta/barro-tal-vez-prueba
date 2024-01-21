@@ -18,9 +18,7 @@ a {
     font-weight: 600;
 }
 
-li {
-    list-style: none;
-}
+
 
 /* fin generales */
 
@@ -49,21 +47,32 @@ h2 {
     font-size: 3rem;
 }
 
+
+
 /* fin fuentes */
 
 /* header */
+.header {
+    font-weight: 600;
+    padding: 3%;
+}
+
+li {
+    list-style: none;
+}
+
+/* fin header */
+
+
+/* sobrantes ver de borrar */
 .listaMenu {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-
 }
 
-.listaMenuFooter {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-}
+/* Fin sobrantes ver de borrar */
+
 
 .sectionImagen {
     background-image: url(../multimedia/icono.jpg);
@@ -104,10 +113,7 @@ h2 {
     grid-template-rows: 100px auto;
 }
 
-.header {
-    font-weight: 600;
-    padding: 3%;
-}
+
 
 .grilla {
     display: grid;
@@ -116,10 +122,21 @@ h2 {
     grid-template-rows: 100px auto;
 }
 
+
+/* footer */
 .footerGrilla {
     grid-column: 1/4;
     margin-top: 20%;
 }
+
+.listaMenuFooter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* fin footer */
+
 
 .video-youtube {
     width: 75%;
@@ -127,3 +144,19 @@ h2 {
 
 }
 
+/* celu */
+/* @media screen and (max-width: 480px){
+    .listaMenu {
+        flex-direction: column;
+        gap: 10px;
+    } 
+} */
+
+/* tablet */
+/* @media screen and (min-width: 481px) and (max-width: 800px){
+    .listaMenu {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+} */
