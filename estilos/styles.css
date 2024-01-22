@@ -1,142 +1,40 @@
-/* generales */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
-body {
+* body {
   background-color: #EDE5A6;
   font-family: sans-serif;
 }
 
-a {
+.header {
+  font-weight: 600;
+  padding: 3%;
+}
+.header div .active {
+  font-weight: bold;
+}
+.header nav li {
+  list-style: none;
+}
+.header nav a {
   text-decoration: none;
   color: black;
   font-weight: 600;
 }
 
-/* fin generales */
-/* fuentes */
-h1 {
-  color: #b19727;
-  text-align: center;
-  width: 100%;
-  background-color: #DCD15F;
-  font-size: 3rem;
-}
-
-h2 {
-  color: #B7990D;
-  font-size: 2rem;
-}
-
-.subtitulo {
-  color: #B7990D;
-  font-size: 1.5rem;
-  text-align: center;
-  width: 100%;
-  background-color: rgba(23, 23, 23, 0.2549019608);
-  font-size: 3rem;
-}
-
-/* fin fuentes */
-/* header */
-.header {
-  font-weight: 600;
-  padding: 3%;
-}
-
-li {
-  list-style: none;
-}
-
-/* fin header */
-/* sobrantes ver de borrar */
-.listaMenu {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-/* Fin sobrantes ver de borrar */
-.sectionImagen {
-  background-image: url(../multimedia/icono.jpg);
-  background-repeat: no-repeat;
-  background-position: left;
-  background-size: cover;
-}
-
-.sombra-parrafo {
-  background-color: rgba(0, 0, 0, 0.323);
-  color: whitesmoke;
-  font-size: 20px;
-}
-
-.imagenGaleria {
-  width: 100%;
-}
-
-.imagenProyectos {
-  width: 100%;
-}
-
-.cajaContenedora {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.redes {
-  font-size: 40px;
-}
-
-.grillaNuestrosProyectos {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  row-gap: 3px;
-  grid-template-rows: 100px auto;
-}
-
-.grilla {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  row-gap: 3px;
-  grid-template-rows: 100px auto;
-}
-
-/* footer */
 .footerGrilla {
   grid-column: 1/4;
   margin-top: 20%;
 }
-
-.listaMenuFooter {
+.footerGrilla .listaMenuFooter {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
 }
-
-/* fin footer */
-.video-youtube {
-  width: 75%;
-  height: 45vh;
+.footerGrilla .listaMenuFooter .redes {
+  font-size: 40px;
 }
-
-/* celu */
-/* @media screen and (max-width: 480px){
-    .listaMenu {
-        flex-direction: column;
-        gap: 10px;
-    } 
-} */
-/* tablet */
-/* @media screen and (min-width: 481px) and (max-width: 800px){
-    .listaMenu {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-} */
 
 /*# sourceMappingURL=styles.css.map */

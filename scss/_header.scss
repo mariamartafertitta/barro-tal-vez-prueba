@@ -1,0 +1,23 @@
+.header {
+    font-weight: 600;
+    padding: 3%;
+
+    div {
+        .active {
+            font-weight: bold;
+        }
+    }
+
+    nav {
+        li {
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+            font-weight: 600;
+        }
+
+    }
+}

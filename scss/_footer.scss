@@ -1,0 +1,15 @@
+.footerGrilla {
+    grid-column: 1/4;
+    margin-top: 20%;
+
+    .listaMenuFooter {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+
+        .redes {
+            font-size: 40px;
+        }
+    }
+
+}
