@@ -1,31 +1,19 @@
 /* generales */
 
+/* fuentes generales*/
 
 
-/* fuentes */
 
-h1 {
-    color: #b19727;
-    text-align: center;
-    width: 100%;
-    background-color: #DCD15F;
-    font-size: 3rem;
-}
-
-h2 {
-    color: #B7990D;
-    font-size: 2rem;
-}
-
-
+/* sobrenosotros */
 .subtitulo {
     color: #B7990D;
     font-size: 1.5rem;
     text-align: center;
-    width: 100%;
+    width: $anchoimagen;
     background-color: #17171741;
     font-size: 3rem;
 }
+
 
 /* fin fuentes */
 
@@ -42,35 +30,16 @@ h2 {
     flex-wrap: wrap;
     gap: 20px;
 }
+
 /* Fin sobrantes ver de borrar */
-
-
-.sectionImagen {
-    background-image: url(../multimedia/icono.jpg);
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size: cover;
-}
-
-.sombra-parrafo {
-    background-color: rgba(0, 0, 0, 0.323);
-    color: whitesmoke;
-    font-size: 20px;
-}
+/* index */
 
 .imagenGaleria {
-    width: 100%;
+    width: $anchoimagen;
 }
 
 .imagenProyectos {
-    width: 100%;
-}
-
-
-.cajaContenedora {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    width: $anchoimagen;
 }
 
 
@@ -81,8 +50,6 @@ h2 {
     row-gap: 3px;
     grid-template-rows: 100px auto;
 }
-
-
 
 .grilla {
     display: grid;
@@ -97,12 +64,7 @@ h2 {
 
 /* fin footer */
 
-
-.video-youtube {
-    width: 75%;
-    height: 45vh;
-
-}
+/*  */
 
 
 /* celu */

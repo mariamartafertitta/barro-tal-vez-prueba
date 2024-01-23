@@ -1,0 +1,14 @@
+.sectionImagen {
+    background-image: url(../multimedia/icono.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+
+    div {
+        .sombra-parrafo {
+            background-color: rgba(0, 0, 0, 0.323);
+            color: whitesmoke;
+            font-size: 20px;
+        }
+    }
+}

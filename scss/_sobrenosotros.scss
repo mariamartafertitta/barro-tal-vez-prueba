@@ -1,0 +1,12 @@
+.cajaContenedora {
+    display: flex;
+    justify-content: map-get($flexbox,alinearHorizontal );
+    align-items: map-get($flexbox, alinearvertical );
+
+}
+
+.video-youtube {
+    width: 75%;
+    height: 45vh;
+
+}

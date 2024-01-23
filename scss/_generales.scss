@@ -5,6 +5,25 @@
 
     body {
         background-color: #EDE5A6;
-        font-family:sans-serif;
+        font-family: $tipografiaprincipal;
+
+        div {
+            h1 {
+                color: #b19727;
+                text-align: center;
+                width: 100%;
+                background-color: #DCD15F;
+                font-size: 3rem;
+                font-family: $tipografiaprincipal
+            }
+
+            h2 {
+                color: #B7990D;
+                font-size: 2rem;
+                font-family: $tipografiaprincipal;
+            }
+
+        }
+
     }
 }
