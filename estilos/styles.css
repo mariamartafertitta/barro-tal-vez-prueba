@@ -43,7 +43,11 @@
 }
 .footerGrilla .listaMenuFooter {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
+  flex-direction: row;
+  flex-wrap: wrap-;
   gap: 20px;
 }
 .footerGrilla .listaMenuFooter .redes {
@@ -71,6 +75,21 @@
 .video-youtube {
   width: 75%;
   height: 45vh;
+}
+
+.imagenGaleria {
+  width: 100%;
+}
+
+.imagenProyectos {
+  width: 100%;
+}
+
+.grillaNuestrosProyectos, .grilla {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 3px;
+  grid-template-rows: 100px auto;
 }
 
 /*# sourceMappingURL=styles.css.map */

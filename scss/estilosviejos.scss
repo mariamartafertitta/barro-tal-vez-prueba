@@ -34,29 +34,12 @@
 /* Fin sobrantes ver de borrar */
 /* index */
 
-.imagenGaleria {
-    width: $anchoimagen;
-}
-
-.imagenProyectos {
-    width: $anchoimagen;
-}
 
 
 
-.grillaNuestrosProyectos {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    row-gap: 3px;
-    grid-template-rows: 100px auto;
-}
 
-.grilla {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    row-gap: 3px;
-    grid-template-rows: 100px auto;
-}
+
+
 
 
 /* footer */
@@ -83,3 +66,5 @@
     }
 
 } */
+
+
