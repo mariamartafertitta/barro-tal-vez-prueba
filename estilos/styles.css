@@ -41,7 +41,7 @@
   grid-column: 1/4;
   margin-top: 20%;
 }
-.footerGrilla .listaMenuFooter {
+.footerGrilla ul .listaMenuFooter {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -50,7 +50,7 @@
   flex-wrap: wrap-;
   gap: 20px;
 }
-.footerGrilla .listaMenuFooter .redes {
+.footerGrilla ul .listaMenuFooter a .redes {
   font-size: 40px;
 }
 
@@ -71,10 +71,18 @@
   justify-content: space-evenly;
   align-items: center;
 }
-
-.video-youtube {
+.cajaContenedora .video-youtube {
   width: 75%;
   height: 45vh;
+}
+
+h2 .subtitulo {
+  color: #B7990D;
+  font-size: 1.5rem;
+  text-align: center;
+  width: 100%;
+  background-color: rgba(23, 23, 23, 0.2549019608);
+  font-size: 3rem;
 }
 
 .imagenGaleria {
