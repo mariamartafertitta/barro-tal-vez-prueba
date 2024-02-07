@@ -7,11 +7,14 @@
             @include flexbox;
             flex-wrap: wrap-;
             gap: 20px;
+            &:hover{
+                transform:scale(1.2,1.2)
+            }
+        }
 
-            a {
-                .redes {
-                    font-size: 40px;
-                }
+        a {
+            .redes {
+                font-size: 40px;
             }
         }
     }

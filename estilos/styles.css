@@ -50,7 +50,10 @@
   flex-wrap: wrap-;
   gap: 20px;
 }
-.footerGrilla ul .listaMenuFooter a .redes {
+.footerGrilla ul .listaMenuFooter:hover {
+  transform: scale(1.2, 1.2);
+}
+.footerGrilla ul a .redes {
   font-size: 40px;
 }
 
